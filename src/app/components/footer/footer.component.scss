@@ -1,0 +1,28 @@
+footer {
+    background-color: #1a202c; /* Color de fondo del footer */
+    color: #ffffff; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding: 20px 0; /* Espaciado superior e inferior */
+    position: fixed; /* Fijar el footer en la parte inferior */
+    bottom: 0; /* Posicionar al fondo */
+    left: 0; /* Alinear a la izquierda */
+    width: 100%; /* Ocupa todo el ancho */
+    z-index: 1000; /* Asegurarte de que esté por encima de otros elementos */
+  }
+  
+  .footer-content {
+    max-width: 1200px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centrar el contenido */
+    padding: 0 20px; /* Espaciado lateral */
+  }
+  
+  footer a {
+    color: #63b3ed; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    margin: 0 10px; /* Espaciado entre enlaces */
+  }
+  
+  footer a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+  }
+  
